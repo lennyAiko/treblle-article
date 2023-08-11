@@ -1,0 +1,4 @@
+.env
+config/__pycache__/
+article/migrations/
+article/__pycache__/g
