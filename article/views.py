@@ -8,9 +8,9 @@ from .serializer import ArticleSerializer
 
 #read endpoint
 class ArticleListView(generics.ListCreateAPIView):
-	queryset = Articles.object.all()
+	queryset = Articles.objects.all()
 	serializer_class = ArticleSerializer
 
 class ArticleUpdateDestroyView(generics.RetrieveUpdateDestroyAPIView):
-	queryset = Articles.object.all()
+	queryset = Articles.objects.all()
 	serializer_class = ArticleSerializer
