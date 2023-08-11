@@ -138,8 +138,6 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-print(os.environ.get('TREBLLE_API_KEY'))
-
 TREBLLE_INFO = {
     'api_key': env('TREBLLE_API_KEY'),
     'project_id': env('TREBLLE_PROJECT_ID')
